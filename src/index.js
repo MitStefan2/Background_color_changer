@@ -1,6 +1,6 @@
 // Array of colors method
 
-/* let colorsArr = [
+ let colorsArr = [
   "#FF6633",
   "#FFB399",
   "#FF33FF",
@@ -52,14 +52,16 @@
   "#99E6E6",
   "#6666FF"
 ];
+window.onload=function(){
 let i = 0;
 document.getElementById("button").addEventListener("click", function () {
   const randomColor = colorsArr[Math.floor(Math.random() * colorsArr.length)];
   document.body.style.backgroundColor = randomColor;
-}); */
+}); 
+} 
 
 // Random RGB method
-
+/* window.onload=function(){
 document.getElementById("button").addEventListener("click", function () {
   var r = Math.floor(Math.random() * 256);
   var g = Math.floor(Math.random() * 256);
@@ -69,3 +71,4 @@ document.getElementById("button").addEventListener("click", function () {
   var body = document.getElementsByTagName("body");
   body[0].style.backgroundColor = color;
 });
+} */
